@@ -5,6 +5,7 @@ while(True):
 	print "4. Colgate Offer(Buy 2 Get 1 Free)"
 	print "5. Colgate(Offer) and CloseUp"
 	
+	
 	print "Enter your choice"
 	ch=input()
 
