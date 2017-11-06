@@ -11,14 +11,10 @@ while(True):
 	def bill_amount(total):
 		print "Total amount is:-",total
 
-	def colgate_1():
-		colgate=1*10
+	def colgate_1(n):
+		colgate=n*10
 		bill_amount(colgate)
 	
-	def colgate_10():
-		colgate=10*10
-		bill_amount(colgate)
-
 	def colgate_closeup():
 		colgate=10*5
 		closeup=15*2
@@ -44,10 +40,10 @@ while(True):
 	
 
 	if ch==1:
-		colgate_1()
+		colgate_1(1)
 
 	if ch==2:
-		colgate_10()
+		colgate_1(10)
 	
 	if ch==3:
 		colgate_closeup()
